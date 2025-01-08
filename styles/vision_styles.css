@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --primary-text-color: #103857;
+  --secondary-text-color: #41607e;
+  --white: #ffffff;
+  --background-color: #4fb3d4;
+  --accent-color: #103857;
+  --accent-color-dark: rgb(13, 41, 62);
+  --padding-inline-section: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "sans-serif";
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button, .primary-button {
+  background-color: var(--accent-color);
+  font: inherit;
+  color: var(--white);
+  font-weight: 700;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 30px;
+  transition: 0.2s ease-out;
+}
+button:hover, .primary-button:hover {
+  background-color: var(--accent-color-dark);
+}
+
+.top-banner {
+  background-color: var(--background-color);
+  background-image: url(asset/asset\ 32.png);
+  background-size: 300px;
+}
+.top-banner .banner-text {
+  color: var(--white);
+  padding: 15px 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+header {
+  padding: 50px var(--padding-inline-section) 0;
+}
+header .header-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+header .header-section .header-left {
+  max-width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+header .header-section .header-right {
+  max-width: 600px;
+}
+
+.banner-text a {
+  color: var(--white);
+}
+.banner-text a:hover {
+  color: var(--primary-text-color);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--background-color);
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer .footer__paragraph {
+  color: var(--white);
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main {
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+
+.vision-board {
+  width: 50%;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.vision-board h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.vision-board__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.vision-board__content img {
+  max-width: 150px;
+  max-height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+
+.image-selection {
+  width: 40%;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.image-selection h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.image-selection__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.image-selection__content img {
+  max-width: 150px;
+  max-height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+
+.header {
+  background-color: var(--background-color);
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.header__nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header__nav-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  border-radius: 2rem;
+}
+
+.vision-board__bottom {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button__clear {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ca6d5d;
+  color: #fff;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.button__clear:hover {
+  background-color: #d44028;
+}/*# sourceMappingURL=vision_styles.css.map */
