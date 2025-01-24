@@ -72,6 +72,11 @@
     max-height: 150px;
     object-fit: cover;
     border-radius: 8px;
+    border: transparent solid 3px;
+    
+    &:hover {
+        border: var(--accent-color) solid 3px;
+    }
 }
 
 .header {

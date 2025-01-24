@@ -179,6 +179,10 @@ footer .footer__paragraph {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 8px;
+  border: transparent solid 3px;
+}
+.image-selection__content img:hover {
+  border: var(--accent-color) solid 3px;
 }
 
 .header {
